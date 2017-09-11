@@ -51,7 +51,7 @@ if(isset($_POST['imagen'])) {
       $output .= '<result>true</result>';
       $output .= '<message>Successful Operation</message>';
       $output .= '</data>';
-      
+      return $output;
 			$message = "Message: New Data Insertion :: " . date("Y-m-d H:i:s");
 			doDebug($message, false, false);
 		}else{
