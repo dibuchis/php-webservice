@@ -10,11 +10,11 @@ $ch = curl_init();
 
 //Setting up CURL option
 $options = array(
-      CURLOPT_POST => 1,
-      CURLOPT_URL => $urlWS,
-		  CURLOPT_HEADER => 'Content-type: text/xml',
-		  CURLOPT_RETURNTRANSFER => 1,
-      CURLOPT_POSTFIELDS => http_build_query(array('imagen' => $imagenPostData))
+	CURLOPT_POST => 1,
+	CURLOPT_URL => $urlWS,
+	CURLOPT_HEADER => 'Content-type: text/xml',
+	CURLOPT_RETURNTRANSFER => 1,
+	CURLOPT_POSTFIELDS => http_build_query(array('imagen' => $imagenPostData))
     ); 
 	
 // Charging options
