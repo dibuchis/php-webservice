@@ -1,3 +1,4 @@
+![alt text](https://github.com/dibuchis/php-webservice/blob/master/logo.png?raw=true)
 # php-webservice
 Php webservice for send large image base64 and another desired data
 
